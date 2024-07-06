@@ -1,12 +1,28 @@
 
-/* 
+.main-frame{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+}
+.title{
+    width: 200px;
+    margin: auto;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+li{
+    height: 50px;
+    padding: 25px;
+}
+body{
+    background-color: lightgray;
+}
 
-*/
+button {
+    border: none;
+}
+input{
+    border: none;
+}
